@@ -1,8 +1,10 @@
+import HomePage from "./pages/HomePage";
+
 function App() {
   return (
-    <>
-      <p className="text-3xl">Kunal</p>
-    </>
+    <div className="bg-[#EFF2F5]">
+      <HomePage />
+    </div>
   );
 }
 
